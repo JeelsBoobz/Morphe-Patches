@@ -170,7 +170,7 @@ internal val addChromeUserscriptManifestPatch = resourcePatch(
 
     val customPackageName by stringOption(
         key = "chromeMonkeyScriptPackageName",
-        default = "com.android.chrome.morphe",
+        default = "com.android.chrome",
         title = "Package name",
         description =
             "Android package ID for side-by-side installation. It must differ from com.android.chrome.",
